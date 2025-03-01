@@ -82,6 +82,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 For detailed documentation on the AI Agent App, please refer to the following links:
 
-- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs) - Comprehensive guide to using Tailwind CSS.
-- [Shadcn/UI Documentation](https://ui.shadcn.com/docs) - Documentation for the Shadcn/UI component library.
+- [Next.js](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Tailwind CSS](https://tailwindcss.com/docs) - Comprehensive guide to using Tailwind CSS.
+- [Shadcn/UI](https://ui.shadcn.com/docs) - Documentation for the Shadcn/UI component library.
+- [Clerk middleware](https://clerk.com/docs/quickstarts/nextjs-pages-router) - User management platform
