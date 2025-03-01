@@ -1,28 +1,54 @@
-# AI Agent App
+# AI Content Agent
 
-This app is designed to serve as an AI-powered agent that assists users with various tasks, leveraging the capabilities of Next.js for a responsive and dynamic web experience. It integrates advanced features to enhance user interaction and streamline workflows.
+This is an AI-powered content analysis platform that helps content creators get insights from their YouTube videos. The platform uses advanced AI to analyze video content, generate transcriptions, create thumbnails, and provide content recommendations.
+
+## Features
+
+- **AI Video Analysis** - Deep insights into your video content with advanced AI analysis
+- **Smart Transcription** - Accurate transcriptions of your videos for subtitles or repurposing content
+- **Thumbnail Generation** - AI-generated eye-catching thumbnails to boost click-through rates
+- **Title Generation** - SEO-optimized title suggestions that resonate with your audience
+- **Shot Script** - Detailed instructions to recreate viral videos with shooting techniques and editing tips
+- **AI Agent Conversations** - Engage in discussions about content strategy with your AI agent companion
 
 ## Tech Stack
 
-- **Next.js**: A React framework for building server-side rendered applications.
-- **Tailwind CSS**: A utility-first CSS framework for styling.
-- **Shadcn/UI**: A component library for building user interfaces.
-- **Various LLM Models**: Leveraging different large language models for enhanced AI capabilities.
+- **Frontend**: Next.js 15, React 19, TailwindCSS
+- **AI Integration**: AI SDK, Anthropic, OpenAI
+- **Authentication**: Clerk
+- **Database**: Convex
+- **Styling**: Tailwind CSS, Radix UI components
+- **YouTube Integration**: youtubei.js for video data extraction
 
-## How to setup
+## Project Structure
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+- `/app` - Next.js app directory with pages and layouts
+- `/components` - Reusable UI components
+- `/convex` - Database models and schema
+- `/actions` - Server actions for form handling and business logic
+- `/lib` - Utility functions and helper methods
+- `/features` - Feature flag configurations
+- `/public` - Static assets
+
+## Data Model
+
+The application stores:
+
+- YouTube video IDs linked to users
+- Video transcripts with timestamps
+- Generated images/thumbnails
+- Custom generated titles
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-pnpm dev
-# or
 npm run dev
 # or
 yarn dev
+# or
+pnpm dev
 # or
 bun dev
 ```
@@ -32,6 +58,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Environment Setup
+
+The project requires several environment variables to be set up. Check `.env.example` for required configurations.
 
 ## Learn More
 
