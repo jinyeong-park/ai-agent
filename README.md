@@ -1,3 +1,9 @@
+# AI Agent App
+
+This app is designed to serve as an AI-powered agent that assists users with various tasks, leveraging the capabilities of Next.js for a responsive and dynamic web experience. It integrates advanced features to enhance user interaction and streamline workflows.
+
+## How to setup
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -5,11 +11,11 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 First, run the development server:
 
 ```bash
+pnpm dev
+# or
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
 # or
 bun dev
 ```
